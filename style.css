@@ -22,9 +22,7 @@
   justify-content: center;
 }
 
-.img-1,
-.img-2,
-.img-3 {
+.img {
   height: 100%;
   width: 50%;
   background-image: url('https://source.unsplash.com/random');
