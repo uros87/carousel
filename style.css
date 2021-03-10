@@ -24,9 +24,4 @@
 
 .img {
   height: 100%;
-  width: 50%;
-  background-image: url('https://source.unsplash.com/random');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
