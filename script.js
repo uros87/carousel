@@ -3,7 +3,17 @@ $(document).ready(function () {
     config.forEach((el) => {
       if (el.from.isBefore(moment()) && el.to.isAfter(moment())) {
         $('.owl-carousel').append(
-          `<div class="item"><div><h3>${el.title}</h3><p>${el.paragraph}</p></div><div><img src="${el.imageUrl}" class="img"></img></div></div`
+          `
+          <div class="item">
+            <div>
+              <h3>${el.title}</h3>
+              <p>${el.paragraph}</p>
+            </div>
+            <div>
+              <img src="${el.imageUrl}" class="img"></img>
+            </div>
+          </div
+          `
         );
       }
     });
