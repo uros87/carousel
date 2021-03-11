@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .item {
   border: 1px solid #000;
   background-color: #000;
@@ -24,4 +29,26 @@
 
 .img {
   height: 100%;
+}
+
+.owl-carousel {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.owl-prev,
+.owl-next {
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block !important;
+  border: 0px solid black;
+}
+.owl-prev {
+  left: 10%;
+}
+.owl-next {
+  right: 10%;
 }
